@@ -1,0 +1,84 @@
+body{
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.float-container {
+    border: 3px solid #ffffff;
+    padding: 0px;
+
+}
+
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding-right: 0px;
+    padding: 20px;
+    background-color: white;
+    /* border: 2px solid rgb(172, 123, 123); */
+    height: max-content;
+}  
+
+.heading-left{
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hr-left
+{
+    padding-right: 0px;
+    margin-top: 25px;
+    border: .5px solid rgba(212, 197, 197, 0.84);
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding-left: 0px; 
+    text-indent: -.7em;
+    font-weight:300;
+    letter-spacing: normal;
+    
+  }
+  
+  li::before {
+    content: "• ";
+    font-size: 1.5rem;
+    color: rgb(238, 202, 0); 
+  }
+  .table-left
+  {
+    padding-top: 20px;
+    font-size: 13px;
+    color: rgb(62, 57, 57);
+  }
+
+  .bold-tb
+  {
+    color:black;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .float-child{
+      width: 70%;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .float-child{
+      width: 85%;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .float-child{
+      width: 100%;
+    }
+  }
